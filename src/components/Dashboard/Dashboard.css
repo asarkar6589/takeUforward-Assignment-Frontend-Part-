@@ -1,0 +1,76 @@
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.banner-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.banner-table th, .banner-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.banner-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.banner-table input[type="text"],
+.banner-table input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.banner-table input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+}
+
+.countdown {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff0000;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4CAF50;
+}
